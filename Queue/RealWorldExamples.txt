@@ -1,0 +1,4 @@
+01) CPU scheduling.
+02) call center phone systems.
+03) Disk scheduling.
+04) Multiprocessor systems.
