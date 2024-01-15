@@ -51,6 +51,10 @@ public class StackImpl {
         }
        }
 
+       void size(){
+        System.out.println("Size is: "+ (top+1));
+       }
+
         public static void main(String[] args) {
             StackImpl myStack = new StackImpl(5);
 
@@ -62,7 +66,8 @@ public class StackImpl {
             myStack.push(60); //overflow
 
             myStack.printStack();
-            
+            myStack.size();
+
             myStack.pop();
             myStack.pop();
             myStack.pop();
